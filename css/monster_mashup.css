@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+  margin:0px;
+  padding: 0px;
+  font: 18px Helvetica, sans-serif;
+}
+
+#top {
+  color: white;
+  top: 0px;
+  margin-left: 50px;
+  z-index: 1;
+}
+h3,#Random,#Reset {
+  color: white;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+#Random,#Reset {
+  font: 16px/16px "Beyond Wonderland";
+  background: none;
+  border: none;
+}
+#container {
+  position: relative;
+  top: 0px;
+  left: 50px;
+} 
+
+.lightning {
+  display: none;
+  position: absolute;
+  left:0px;
+  top:0px;
+}
+#lightning1 {
+  display: block;
+}
+
+#frame {
+  position: absolute;
+  width: 546px;
+  height: 629px;
+  left: 175px;
+  top: 10px;
+  font-size: 0px;
+  background-image: url(../images/monster_mashup/frame.png);
+  overflow: hidden;
+}
+
+#pic_box {
+  position: relative;
+  width: 367px;
+  height: 460px;
+  left: 90px;
+  top: 80px;
+  overflow: hidden;
+}
+.face {
+  position: relative;
+  width: 367px;
+}
+
